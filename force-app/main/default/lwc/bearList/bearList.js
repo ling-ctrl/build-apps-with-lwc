@@ -1,4 +1,5 @@
 import { publish, MessageContext } from 'lightning/messageService';
+import BEAR_LIST_UPDATE_MESSAGE from '@salesforce/messageChannel/BearListUpdate__c';
 import { NavigationMixin } from 'lightning/navigation';
 import { LightningElement, wire } from 'lwc';
 /** BearController.searchBears(searchTerm) Apex method */
